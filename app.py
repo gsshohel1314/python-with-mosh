@@ -1,3 +1,4 @@
-full_name = "jhon smith"
-age = 22
-is_new = True
+name = input('What is your name? :')
+color = input('What is your favorite color? :')
+print ("Hi " + name + " Your favorite color " +color)
+
