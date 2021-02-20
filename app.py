@@ -1,10 +1,26 @@
-birth_year = input('Input your birth year:')
-print(type(birth_year))
-age = 2021 - int(birth_year)
-print(type(age))
-print(age)
+course = "python's course for beginners"
+print(course)
 
-weight_lbs = input('input your weight (lbs): ')
-weight_kg = int(weight_lbs) * 0.45
-print(weight_kg)
+new_course = '''
+hi shohel,
+
+here is our first email to you,
+
+thank you.
+The support team       
+'''
+print(new_course)
+
+string_index = "Python for beginners"
+print(string_index[0])
+print(string_index[-2])
+print(string_index[0:3])
+print(string_index[0:])
+print(string_index[1:])
+print(string_index[:5])
+another = string_index[:]
+print(another)
+name = "Jennifer"
+print(name[1:-1])
+
 
