@@ -1,9 +1,3 @@
-price = 10
-price = 20
-print(price)
-rating = 5.5
-print(rating)
-name = "shohel"
-print(name)
-is_published = False
-print(is_published)
+full_name = "jhon smith"
+age = 22
+is_new = True
