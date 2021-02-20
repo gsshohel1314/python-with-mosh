@@ -1,9 +1,9 @@
-first = "John"
-last = 'Smith'
-name = first +' '+ last +' is a coder'
-print(name)
-name_one = first + ' [' + last + '] is a coder'
-print(name_one)
-name_two = f'{first} [{last}] is a coder' #best practice
-print(name_two)
+course = 'Python for beginners'
+print(len(course))
+print(course.upper())
+print(course.lower())
+print(course.find('P'))
+print(course.find('beginners')) #find method is case sensetive
+print(course.replace('beginners', 'Absolute Beginners'))
+print('Python' in course)
 
