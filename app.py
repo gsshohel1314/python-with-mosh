@@ -1,13 +1,16 @@
-print("Operator Precedence:")
-# parenthesis > exponentiation > multiplication or divition > addition or subtraction
+import math
+print("Math Module:") #for using math module must import math
+x = 2.9
+print(math.ceil(x))
+print(math.floor(x))
+print(math.log10(x))
+print(math.cos(x))
+print(math.factorial(3))
+print(math.copysign(3, 6))
 
-x = (10 + 3) * 2 ** 2
-print(x)
-x = 10 + 3 * 2 ** 2
-print(x)
-x = 10 + 3 * 2 - 2
-print(x)
+print("Math Functions:")
+x = 2.9
+print(round(x))
 
-print("Exercise:")
-x = (2 + 3) * 10 - 3
-print(x)
+x = -2.9
+print(abs(x))
